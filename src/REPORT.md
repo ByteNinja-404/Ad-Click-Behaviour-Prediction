@@ -133,3 +133,7 @@ The findings and model provide a foundation for future work in ad click predicti
 7. **Shields.io for Badges**:
    - [Shields.io](https://shields.io/)  
    Used to generate badges that display relevant information such as Python version or project license.
+
+8. **Dataset Source**:
+   - [Ad Click Prediction Dataset - Kaggle](https://www.kaggle.com/datasets/marius2303/ad-click-prediction-dataset/data)  
+   The dataset used in this project is sourced from Kaggle. It contains data on user demographics, behavior, device type, and ad click history, which are used for training and testing the machine learning model.
