@@ -1,3 +1,11 @@
+# Ad Click Prediction Project Report
+
+## Problem Statement
+
+In the digital advertising industry, the ability to predict which users will engage with ads is crucial for improving the return on investment (ROI) of advertising campaigns. By targeting users who are more likely to click on ads, businesses can optimize their advertising budget and drive more effective engagement.
+
+This project addresses the problem of predicting user interaction with online advertisements. Specifically, the goal is to predict whether a user will click on an advertisement based on their demographic information (such as age, gender, and device type) and behavioral factors (such as browsing history and the time of day the ad is shown). The target variable for this prediction is whether or not the user clicked on the ad (`click = 1` for clicked, `click = 0` for no click).
+
 ## Objective
 
 The main objective of this project is to **predict user click behavior on advertisements** using machine learning techniques. By analyzing user behavior and demographics, this project aims to:
