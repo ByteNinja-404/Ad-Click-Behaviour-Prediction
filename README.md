@@ -63,24 +63,6 @@ ad-click-prediction/
 - Automatically saves all visualizations in the `visuals/` directory.
 
 
-## Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/ad-click-prediction.git
-cd ad-click-prediction
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-1. Place your dataset in the `data/` directory
-2. Run the main script:
-```bash
-python src/main.py
-```
 
 ## Data Description
 The dataset includes the following features:
@@ -128,23 +110,42 @@ macro avg 0.68 0.64 0.65 3000 weighted avg 0.69 0.71 0.69 3000
 ### Age Distribution
 This chart shows the distribution of users based on age.
 
-![Age Distribution](visuals/age_distribution.png)
+![Age Distribution](src/visuals/age_click_behavior.png)
 
 ### Click Rates by Gender
 This bar chart compares the click-through rate (CTR) between male and female users.
 
-![Clicks by Gender](visuals/clicks_by_gender.png)
+![Clicks by Gender](src/visuals/clicks_by_gender.png)
 
 ### Feature Correlation Heatmap
 This heatmap visualizes the correlations between numerical features in the dataset.
 
-![Correlation Heatmap](visuals/correlation_heatmap.png)
+![Correlation Heatmap](src/visuals/correlation_heatmap.png)
 
 ### Age and Click Behavior
 This chart compares the age distribution of users who clicked and those who did not click on ads.
 
-![Age Click Behavior](visuals/age_click_behavior.png)
+![Age Click Behavior](src/visuals/age_click_behavior.png)
 
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ad-click-prediction.git
+cd ad-click-prediction
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+1. Place your dataset in the `data/` directory
+2. Run the main script:
+```bash
+python src/main.py
+```
 
 
 ## Contributing
