@@ -102,9 +102,9 @@ The trained **Random Forest Classifier** achieves the following results on the t
        1       0.73      0.86      0.79      1945
 
 accuracy                           0.71      3000
+macro avg      0.68      0.64      0.65      3000
+weighted avg   0.69      0.71      0.69      3000
 ```
-macro avg 0.68 0.64 0.65 3000 weighted avg 0.69 0.71 0.69 3000
-
 ## Visualizations
 
 ### Age Distribution
