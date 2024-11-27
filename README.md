@@ -9,19 +9,20 @@ ad-click-prediction/
 ├── data/
 │   └── ad_click_dataset.csv
 ├── src/
+|   ├── models/
+│   ├── visuals/
+|   │    ├── age_distribution.png
+│   |    ├── clicks_by_gender.png
+│   |    ├── correlation_heatmap.png
+│   |    └── age_click_behavior.png
 │   ├── preprocessing.py
 │   ├── visualization.py
 │   ├── model.py
 │   └── main.py
-├── models/
-│   └── random_forest_model.joblib
-├── visuals/
-│   ├── age_distribution.png
-│   ├── clicks_by_gender.png
-│   ├── correlation_heatmap.png
-│   └── age_click_behavior.png
-├── requirements.txt
-└── README.md
+├── .gitignore
+├── LICENCE
+├── README.md
+└── requirements.txt
 ```
 
 ## Features
