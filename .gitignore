@@ -38,5 +38,5 @@ ENV/
 models/*.joblib
 visuals/*.png
 *.log
-.joblib
+*.joblib
 src/models/*.joblib
